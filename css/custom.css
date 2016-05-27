@@ -11,3 +11,12 @@
   border: solid black 1px;
   height: 400px;
 }
+
+.title{
+  float: left;;
+  width: 50%;
+}
+.content{
+  float: left;
+  width: 50%;
+}
