@@ -9,12 +9,12 @@ body{
   margin: 0 auto;
 }
 
-.right-box{
+#about-me{
   padding: 20px;
   border: solid #ccd9ff 15px;
   background-color:#9494b8;
 }
-.left-box{
+#list{
   padding: 20px;
   border: solid #ccd9ff 15px;
   background-color:#b3ffb3;
@@ -36,13 +36,17 @@ body{
 }
 
 .aboutme{
-  margin: 2px;
+  padding: 1px;
+  border: 3px solid black;
+  margin: 3px;
+  font-family: sans-serif;
+  color: #4d0026;
 }
 
-p{
+#list p{
   font-family:cursive;
   color: #ff6666;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 footer {
