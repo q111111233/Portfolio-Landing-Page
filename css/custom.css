@@ -39,6 +39,12 @@ body{
   margin: 2px;
 }
 
+p{
+  font-family:cursive;
+  color: #ff6666;
+  font-size: 15px;
+}
+
 footer {
     background-color:#ffb3d9;
     text-align:center;

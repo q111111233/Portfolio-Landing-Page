@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>My Portfolio Landing Page</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -15,39 +14,25 @@
   <body>
     <h1>Portfolio Landing Page of Bo Zhao</h1>
     <div class="container-fluid">
-
       <!-- navbar -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar">
         <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Bo's page</a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#about-me">about me</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#list">list of projects</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="navbar-brand" href="#photo">Bo's photos</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#about-me">about me</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#list">list of projects</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </nav>
 
       <!-- carousel -->
-      <div class="container">
+      <div class="container" id="photo">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -61,19 +46,19 @@
             <div class="item active">
               <img src="img/professional.jpg" alt="portland2">
               <div class="carousel-caption">
-                <h3><strong>Bo the professional</strong></h3>
+                <h3><strong>Bo the Programmer</strong></h3>
               </div>
             </div>
             <div class="item">
               <img src="img/after-work.jpg" alt="portland1">
               <div class="carousel-caption">
-                <h3><strong>Bo the traveler</strong></h3>
+                <h3><strong>Bo the Traveler</strong></h3>
               </div>
             </div>
             <div class="item">
               <img src="img/thinker.jpg" alt="portland3">
               <div class="carousel-caption">
-                <h3><strong>Bo the thinker</strong></h3>
+                <h3><strong>Bo the Thinker</strong></h3>
               </div>
             </div>
           </div>
@@ -137,29 +122,29 @@
                   <h3>Work Experience:</h3>
                 </div>
                 <div class="content">
-                  <h3>Bank of America</h3>
+                  <h3>Teller in Bank of America</h3>
                 </div>
               </div>
               <!--  why programming-->
               <div class="aboutme container-fluid">
                 <div class="title">
-                  <h3>Why programming:</h3>
+                  <h3>Why Programming:</h3>
                 </div>
                 <div class="content ">
-                  <h3>Programming is fantastic</h3>
+                  <h3>Programming is Fantastic and Enjoyable</h3>
                 </div>
               </div>
               <!--interests-->
               <div class="aboutme container-fluid">
                 <div class="title">
-                  <h3>Interests, Hobbies, Skills:</h3>
+                  <h3>3 most interested Hobbies:</h3>
                 </div>
                 <div class="content">
                   <ol>
                     <h3>
-                      <li>Coding</li>
-                      <li>Traveling</li>
-                      <li>Thinking</li>
+                      <li><em>Programming</em></li>
+                      <li><em>Traveling</em></li>
+                      <li><em>Thinking</em></li>
                     </h3>
                   </ol>
                 </div>
