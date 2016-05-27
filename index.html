@@ -32,61 +32,69 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Contact Us</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Restaurants</a></li>
-                  <li><a href="#">Travel</a></li>
-                  <li><a href="#">Parks</a></li>
+                  <li><a href="#about-me">about me</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#list">list of projects</a></li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
       <!-- carousel -->
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
+      <div class="container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="img/picture.jpg" alt="portland2">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/professional.jpg" alt="portland2">
+              <div class="carousel-caption">
+                <h3><strong>Bo the professional</strong></h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/after-work.jpg" alt="portland1">
+              <div class="carousel-caption">
+                <h3><strong>Bo the traveler</strong></h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/thinker.jpg" alt="portland3">
+              <div class="carousel-caption">
+                <h3><strong>Bo the thinker</strong></h3>
+              </div>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/Portland1.jpg" alt="portland1">
-          </div>
-          <div class="item">
-            <img src="img/Portland3.jpg" alt="portland3">
-          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
 
       <!-- content arranged in grid -->
       <div class="container-fluid">
         <div class="row">
           <!-- list of projects -->
-          <div class="col-md-6">
+          <div class="col-md-6 left-box" id="list">
             <h1>List of Projects</h1>
             <p>
               <button> <a href="https://github.com/q111111233/my-first-webpage">My first webpage</button></a>
@@ -111,47 +119,47 @@
           </div>
 
           <!-- about me -->
-          <div class="col-md-6">
+          <div class="col-md-6 right-box" id="about-me">
             <div>
               <h1>About Me</h1>
               <!-- education -->
-              <div>
-                <div class ="title">
+              <div class="aboutme container-fluid">
+                <div class="title">
                   <h3>Education:</h3>
                 </div>
-                <div class ="content">
+                <div class="content">
                   <h3>Stony Brook University, NY</h3>
                 </div>
               </div>
               <!-- work experience     -->
-              <div>
+              <div class="aboutme container-fluid">
                 <div class ="title">
                   <h3>Work Experience:</h3>
                 </div>
-                <div class ="content">
+                <div class="content">
                   <h3>Bank of America</h3>
                 </div>
               </div>
               <!--  why programming-->
-              <div>
-                <div class ="title">
+              <div class="aboutme container-fluid">
+                <div class="title">
                   <h3>Why programming:</h3>
                 </div>
-                <div class ="content">
+                <div class="content ">
                   <h3>Programming is fantastic</h3>
                 </div>
               </div>
               <!--interests-->
-              <div>
-                <div class ="title">
-                  <h3>Interests/Hobbies/Skills:</h3>
+              <div class="aboutme container-fluid">
+                <div class="title">
+                  <h3>Interests, Hobbies, Skills:</h3>
                 </div>
-                <div class ="content">
+                <div class="content">
                   <ol>
                     <h3>
-                    <li>Programming</li>
-                    <li>Programming</li>
-                    <li>Programming</li>
+                      <li>Coding</li>
+                      <li>Traveling</li>
+                      <li>Thinking</li>
                     </h3>
                   </ol>
                 </div>
@@ -160,9 +168,14 @@
             </div>
           </div>
         </div>
+
       </div>
 
     </div>
+    <footer>
+      Copyright © Bo Zhao
+    </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

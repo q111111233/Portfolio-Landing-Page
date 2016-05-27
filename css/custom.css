@@ -1,22 +1,49 @@
+body{
+  background-color:#ccd9ff;
+  }
+
+.navbar{
+  background-color:#ffffcc;
+}
 .carousel img{
   margin: 0 auto;
 }
 
-.col-md-4 {
-  border: solid black 1px;
-  height: 400px;
+.right-box{
+  padding: 20px;
+  border: solid #ccd9ff 15px;
+  background-color:#9494b8;
 }
-
-.col-md-6 {
-  border: solid black 1px;
-  height: 400px;
+.left-box{
+  padding: 20px;
+  border: solid #ccd9ff 15px;
+  background-color:#b3ffb3;
 }
 
 .title{
-  float: left;;
-  width: 50%;
+  float: left;
+  width: 40%;
 }
 .content{
+  background-color: #ccffef;
   float: left;
-  width: 50%;
+  width: 60%;
+}
+
+.item img{
+  max-width: 719px;
+  max-height: 476px;
+}
+
+.aboutme{
+  margin: 2px;
+}
+
+footer {
+    background-color:#ffb3d9;
+    text-align:center;
+}
+
+.carousel-caption{
+  color: #00e600;
 }
