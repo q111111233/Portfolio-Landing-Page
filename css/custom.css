@@ -5,6 +5,7 @@ body{
 .navbar{
   background-color:#ffffcc;
 }
+
 .carousel img{
   margin: 0 auto;
 }
@@ -14,6 +15,7 @@ body{
   border: solid #ccd9ff 15px;
   background-color:#9494b8;
 }
+
 #list{
   padding: 20px;
   border: solid #ccd9ff 15px;
@@ -24,6 +26,7 @@ body{
   float: left;
   width: 40%;
 }
+
 .content{
   background-color: #ccffef;
   float: left;
@@ -50,8 +53,8 @@ body{
 }
 
 footer {
-    background-color:#ffb3d9;
-    text-align:center;
+  background-color:#ffb3d9;
+  text-align:center;
 }
 
 .carousel-caption{
